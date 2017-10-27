@@ -2,3 +2,6 @@
 nbproject/private/private.xml
 nbproject/project.properties
 *.jar
+*.class
+*.jar
+*.properties

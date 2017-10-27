@@ -44,7 +44,7 @@ public class ProductListener implements MessageListener {
             System.out.println("Dear " + winner.getName());
             System.out.println("Congratulations! You have won in bidding for product " + p.getName());
             System.out.println("You can access the product using the following link:");
-            System.out.println(); //TODO link, REST?
+            System.out.println("http://localhost:8080/AuctionWeb/faces/search?productID=" + p.getId()); // change for https?
             System.out.println("---- END EMAIL to customer " + winner.getName() + " ----");
         } else {
             System.out.println("Error processing bids");
